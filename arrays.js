@@ -7,3 +7,12 @@ function addElementToBeginningOfArray (array1,elem){
 function destructivelyAddElementToBeginningOfArray(array2,elem2){
   return array2.unshift(elem2);
 }
+
+function addElementToEndOfArray(array3,elem3){
+  return [...array3 , elem3];
+}
+
+function destructivelyAddElementToEndOfArray(array4, elem4){
+  return array4.push(elem4);
+}
+
